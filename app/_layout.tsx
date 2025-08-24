@@ -3,6 +3,8 @@ import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
 import './global.css';
 
+//com.datalatestudio.fastfood
+
 export default function RootLayout() {
   const [fontsLoaded, error] = useFonts({
     "QuickSand-Bold": require('../assets/fonts/Quicksand-Bold.ttf'),
